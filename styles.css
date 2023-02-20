@@ -34,7 +34,7 @@ body {
   font-family: "Segoe UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   color: #262626;
 }
@@ -55,7 +55,6 @@ body {
   height: 58px;
   background: #ffffff;
   border-radius: 10px;
-  margin: 0 auto;
 }
  
 .nav-button-text {
@@ -100,6 +99,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  padding-left:20px;
+  padding-top:20px;
 }
 .h1-zoom {
   font-family: "Segoe UI";
@@ -107,6 +108,8 @@ body {
   font-weight: 700;
   font-size: 50px;
   display: flex;
+  padding-left:20px;
+  padding-top:20px;
   max-width: 528px;
   margin-bottom: 50px;
   align-items: center;
@@ -118,6 +121,8 @@ body {
   font-weight: 400;
   font-size: 20px;
   max-width: 528px;
+  padding-left:20px;
+  padding-top:20px;
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
