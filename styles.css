@@ -499,7 +499,9 @@ color: #262626;
 }
 .section5{
   max-width:1440px;
-  margin:170px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:170px;
   display: flex;
   border-radius: 30px;
   background-color: #fffaeb;
@@ -566,5 +568,114 @@ border-radius: 30px;
   }
   .section5-box-left{
     margin: 0 auto;
+  }
+}
+.phaselus{
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+text-align: center;
+color: #262626;
+margin-bottom: 14px;
+}
+.iaculis{
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+text-align: center;
+color: #262626;
+}
+.section6-padding{
+  padding:0 10px;
+}
+.section6{
+  max-width:1440px;
+  margin: 0 auto;
+}
+.section-6box{
+max-width:1440px;
+background: #FFFFFF;
+border-radius: 40px;
+margin-bottom: 10px;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:20px;
+margin-top:20px;
+}
+.tempus{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #262626;
+}
+.section7-padding{
+  padding:0 10px;
+}
+.section7{
+  max-width:1440px;
+  background: #262626;
+border-radius: 80px;
+padding:40px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+.section7-article{
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+max-width: 600px;
+}
+.section7-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.section7-whitebutton{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 22px 50px 24px;
+max-width: 350px;
+max-height: 78px;
+background: #FFFFFF;
+border-radius: 30px;
+}
+.section7-whitebutton p{
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #262626;
+}
+.section7-text-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:53px;
+}
+.section7-text-footer p{
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
+@media(max-width:985px){
+  .section7-text{
+    display: flex;
+    flex-direction: column;
+  }
+  .section7-text-footer{
+    display: flex;
+   flex-direction: column;
   }
 }
